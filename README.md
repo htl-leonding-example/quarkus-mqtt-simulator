@@ -1,5 +1,25 @@
 # quarkus-mqtt-simulator project
 
+## Problem
+
+When using the smallrye-reactive-message implementation, there is the mqtt-topic fixed in an annotation.
+
+Sometimes you need dynamic topics (change topics at runtime)
+
+## Solution
+
+In the doc is stated, that it is possible to override the topic.
+
+In this example we use an emitter to emit messages.
+
+
+
+
+
+
+## Technology
+
+
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
 If you want to learn more about Quarkus, please visit its website: https://quarkus.io/ .
